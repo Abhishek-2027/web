@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+<h2>Student Dashboard</h2>
+
+<ul>
+<li><a href="index.html">Dashboard</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+</nav>
+
+<div class="container">
+
+<h1>Dashboard</h1>
+
+<div class="card">
+<h3>Total Students</h3>
+<p id="totalStudents">0</p>
+</div>
+
+<h2>Add Student</h2>
+
+<form id="studentForm">
+
+<input type="text" id="name" placeholder="Name" required>
+<input type="email" id="email" placeholder="Email" required>
+<input type="text" id="course" placeholder="Course" required>
+
+<button type="submit">Submit</button>
+
+</form>
+
+<h2>Student List</h2>
+
+<table>
+
+<thead>
+<tr>
+<th>Name</th>
+<th>Email</th>
+<th>Course</th>
+</tr>
+</thead>
+
+<tbody id="studentTable">
+
+</tbody>
+
+</table>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
